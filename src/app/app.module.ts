@@ -10,6 +10,7 @@ import { TodosComponent } from './components/todos/todos.component';
 import { TodoItemComponent } from './components/todo-item/todo-item.component';
 import { HeaderComponent } from './components/layout/header/header.component';
 import { AddTodoComponent } from './components/add-todo/add-todo.component';
+import { AboutComponent } from './components/pages/about/about.component';
 
 @NgModule({
   // declarations are where components will go
@@ -20,6 +21,7 @@ import { AddTodoComponent } from './components/add-todo/add-todo.component';
     TodoItemComponent,
     HeaderComponent,
     AddTodoComponent,
+    AboutComponent,
   ],
   // using modules like the HTTP or routing module go in imports
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
